@@ -20,7 +20,8 @@ def word_substituter(tweet)
     else
       word
     end
-  end.join(" ")
+  tweet.join(" ")
+end
 end
 
 # Write your code here.
